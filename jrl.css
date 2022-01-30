@@ -8,15 +8,35 @@ header {
 	font-family: Daniel;
 	text-align: center;
 	font-size: 30px;
-	text-emphasis-color: white;
+	color: white;
 }
 
-h1 {text-align: center;
-	font-size: 45px;
-	font-family: Blackadder ITC;
+ul {
+	position: -webkit-sticky; /* Safari */
+  	position: sticky;
+  	top: 0;
 }
+
+li {
+	display: inline;
+	color: white;
+}
+
+a {
+	display: block;
+ 	padding: 8px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 35px;
+	font-family: Arial;
+	color: white;
+}
+
 p {
 	text-align: center;
 	font-size: 20px;
-	font-family: Georgia;
+	color: white;
+	font-family: Arial;
 }
